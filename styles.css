@@ -346,9 +346,6 @@ p {
     margin: auto;
     gap: 30px;
     flex-wrap: wrap;
-    transform: translateX(100%);
-    opacity: 0;
-    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
 
 /* Show animation on scroll */
