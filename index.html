@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub - Gym Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>FitnessHub
+        </a>
+        <ul class="nav-links">
+            <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about-me"><i class="fas fa-users"></i> About-me</a></li>
+
+            <li><a href="#programs"><i class="fas fa-dumbbell"></i> Programs</a></li>
+            <li><a href="#classes"><i class="fas fa-calendar-alt"></i> Classes</a></li>
+            <li><a href="#membership"><i class="fas fa-medal"></i> Membership</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars" id="burger-icon"></i>
+        </div>
+    </nav>
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>TRANSFORM YOUR <span>BODY</span>, TRANSFORM YOUR <span>LIFE</span></h1>
+            <p>Join the ultimate fitness experience with state-of-the-art equipment, expert trainers, and a supportive community to help you achieve your fitness goals.</p>
+
+            <div class="hero-btns">
+                <a href="#" class="btn btn-primary">Start Today</a>
+                <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+
+            <div class="featured-stats">
+                <div class="stat-box">
+                    <div class="stat-number"><i class="fas fa-dumbbell"></i>50+</div>
+                    <div class="stat-title">Premium Equipment</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number"><i class="fas fa-users"></i>20+</div>
+                    <div class="stat-title">Expert Trainers</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number"><i class="fas fa-calendar-alt"></i>100+</div>
+                    <div class="stat-title">Weekly Classes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="about-me">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="img_1.png" alt="Your Name">
+            </div>
+            <div class="about-content">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>
+                    Hi, I'm <strong>Divyansh Singh</strong>, a passionate full-stack developer specializing in the MERN stack.
+                    I love creating dynamic and user-friendly applications. My goal is to build impactful and scalable
+                    web solutions using modern technologies.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs">
+        <h2>Our Programs</h2>
+        <div class="program-slider" onmouseover="stopAutoSlide()" onmouseout="startAutoSlide()">
+            <div class="program-container">
+                <div class="program-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and increase strength with expert-led weight training sessions.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-running"></i>
+                    <h3>Cardio Workouts</h3>
+                    <p>Improve your endurance with high-intensity cardio sessions.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Yoga & Meditation</h3>
+                    <p>Relax and rejuvenate with guided yoga and mindfulness classes.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>HIIT</h3>
+                    <p>Burn calories fast with High-Intensity Interval Training.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="classes" class="classes">
+        <h2>Our Classes</h2>
+        <div class="class-container">
+            <div class="class-card">
+                <i class="fas fa-running"></i>
+                <h3>Morning Yoga</h3>
+                <p>Start your day with refreshing yoga sessions.</p>
+            </div>
+            <div class="class-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Strength Training</h3>
+                <p>Boost your muscle power with expert guidance.</p>
+            </div>
+            <div class="class-card">
+                <i class="fas fa-heartbeat"></i>
+                <h3>HIIT</h3>
+                <p>Fast-paced, high-intensity interval training.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="membership">
+        <div class="membership-container">
+            <div class="membership-image">
+                <img src="img_1.png" alt="Membership Benefits">
+            </div>
+            <div class="membership-content">
+                <h2><i class="fas fa-medal"></i> Membership</h2>
+                <p>
+                    Join our exclusive membership program to gain access to premium content, special events,
+                    and networking opportunities. Our community is dedicated to growth and collaboration.
+                </p>
+                <button class="membership-btn">Join Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2><i class="fas fa-envelope"></i> Contact</h2>
+                <p>Feel free to reach out for any queries or collaborations.</p>
+                <div class="contact-details">
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    <p><i class="fas fa-envelope"></i> example@email.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Your Location, India</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 FitnessHub. All Rights Reserved.</p>
+    </div>
+
+    <img src="DOUMBLE.png" class="cursor" alt="Dumbbell">
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = `${e.clientX}px`;
+            cursor.style.top = `${e.clientY}px`;
+        });
+        function animateCursor() {
+            cursorX += (mouseX - cursorX) * 0.1;
+            cursorY += (mouseY - cursorY) * 0.1;
+            cursor.style.transform = `translate(${cursorX - 25}px, ${cursorY - 25}px) scale(1.1) rotate(${cursorX * 0.05}deg)`;
+
+            requestAnimationFrame(animateCursor);
+        }
+
+        animateCursor();
+    </script>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
